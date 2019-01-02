@@ -45,7 +45,9 @@ main{
     padding-top: 200px;
   }
 
-
+  #text{
+    padding: $basicPading;
+  }
 
   h1{
     margin: 10px;
@@ -57,10 +59,10 @@ main{
     margin: 2%;
   }
   p{
-    @include grid(3, 5%);
+    @include grid(3, $basicPading);
     text-align: justify;
     @include mQ(600px){
-      @include grid(1, 5%);
+      @include grid(1, $basicPading);
     }
   }
 }
@@ -70,13 +72,18 @@ footer{
   background: $deepBlue;
   color: white;
   text-align: center;
+  padding: $basicPading;
 
 
   #F-info{
     display: flex;
+    flex-wrap: wrap;
   }
 
   .F-set{
-    @include grid(3, 5%);
+    @include grid(3, $basicPading);
+    @include mQ(600px){
+      @include grid(1, $basicPading);
+    }
   }
 }

@@ -39,6 +39,8 @@ main {
   @media screen and (max-width: 600px) {
     main {
       padding-top: 200px; } }
+  main #text {
+    padding: 5%; }
   main h1 {
     margin: 10px;
     text-align: center; }
@@ -67,14 +69,24 @@ main {
 footer {
   background: #032f3e;
   color: white;
-  text-align: center; }
+  text-align: center;
+  padding: 5%; }
   footer #F-info {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex; }
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
   footer .F-set {
     width: 30%;
     margin-right: 5%;
     margin-bottom: 5%; }
     footer .F-set:nth-of-type(3n) {
       margin-right: 0; }
+    @media screen and (max-width: 600px) {
+      footer .F-set {
+        width: 100%;
+        margin-right: 5%;
+        margin-bottom: 5%; }
+        footer .F-set:nth-of-type(1n) {
+          margin-right: 0; } }
