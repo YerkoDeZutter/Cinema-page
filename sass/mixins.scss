@@ -8,6 +8,12 @@
 }
 
 
+@mixin flex(){
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
 @mixin mQ($args...){
   @if length($args) == 1{
     @media screen and (max-width: nth($args, 1)){

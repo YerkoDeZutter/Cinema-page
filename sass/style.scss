@@ -14,10 +14,7 @@ header{
   background: $deepBlue;
   ul{
     width: 100%;
-    display: flex;
-    @include mQ(600px){
-      flex-direction: column;
-    }
+    @include flex();
   }
   li{
     width: (100% / 5);
@@ -54,8 +51,7 @@ main{
     text-align: center;
   }
   #info-text{
-    display: flex;
-    flex-wrap: wrap;
+    @include flex();
     margin: 2%;
   }
   p{
@@ -76,8 +72,7 @@ footer{
 
 
   #F-info{
-    display: flex;
-    flex-wrap: wrap;
+    @include flex();
   }
 
   .F-set{
