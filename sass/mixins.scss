@@ -5,6 +5,9 @@
   &:nth-of-type(#{$cols}n){
     margin-right: 0;
   }
+  @include mQ(30000px, 601px){
+    margin-bottom: 0;
+  }
 }
 
 
