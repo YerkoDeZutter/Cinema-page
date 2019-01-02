@@ -26,9 +26,9 @@ header {
       background: #04455b; }
 
 main {
-  padding-top: 50px;
   color: #032f3e; }
   main h1 {
+    margin: 10px;
     text-align: center; }
   main p {
     margin: 20px;
