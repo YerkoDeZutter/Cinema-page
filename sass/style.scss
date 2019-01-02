@@ -53,11 +53,15 @@ main{
   }
   #info-text{
     display: flex;
+    flex-wrap: wrap;
     margin: 2%;
   }
   p{
     @include grid(3, 5%);
     text-align: justify;
+    @include mQ(600px){
+      @include grid(1, 5%);
+    }
   }
 }
 
