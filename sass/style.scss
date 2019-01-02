@@ -15,10 +15,16 @@ header{
   ul{
     width: 100%;
     display: flex;
+    @include mQ(600px){
+      flex-direction: column;
+    }
   }
   li{
     width: (100% / 5);
     list-style-type: none;
+    @include mQ(600px){
+      width: 100%;
+    }
   }
   a{
     color: white;
@@ -35,6 +41,9 @@ header{
 
 main{
   color: $deepBlue;
+  @include mQ(600px){
+    padding-top: 200px;
+  }
   img{
 
   }

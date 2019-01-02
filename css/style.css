@@ -13,9 +13,18 @@ header {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex; }
+    @media screen and (max-width: 600px) {
+      header ul {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column; } }
   header li {
     width: 20%;
     list-style-type: none; }
+    @media screen and (max-width: 600px) {
+      header li {
+        width: 100%; } }
   header a {
     color: white;
     text-decoration: none;
@@ -27,6 +36,9 @@ header {
 
 main {
   color: #032f3e; }
+  @media screen and (max-width: 600px) {
+    main {
+      padding-top: 200px; } }
   main h1 {
     margin: 10px;
     text-align: center; }
