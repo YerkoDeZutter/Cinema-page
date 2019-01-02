@@ -44,15 +44,19 @@ main{
   @include mQ(600px){
     padding-top: 200px;
   }
-  img{
 
-  }
+
+
   h1{
     margin: 10px;
     text-align: center;
   }
+  #info-text{
+    display: flex;
+    margin: 2%;
+  }
   p{
-    margin: 20px;
+    @include grid(3, 5%);
     text-align: justify;
   }
 }
