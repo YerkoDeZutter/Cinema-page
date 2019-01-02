@@ -36,7 +36,7 @@ main {
     main {
       padding-top: 200px; } }
   main #text {
-    padding: 5%; }
+    padding: 0 5%; }
   main h1 {
     margin: 10px;
     text-align: center; }
