@@ -60,3 +60,19 @@ main{
     text-align: justify;
   }
 }
+
+
+footer{
+  background: $deepBlue;
+  color: white;
+  text-align: center;
+
+
+  #F-info{
+    display: flex;
+  }
+
+  .f-set{
+    @include grid(3, 5%);
+  }
+}

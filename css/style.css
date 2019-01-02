@@ -54,3 +54,18 @@ main {
     text-align: justify; }
     main p:nth-of-type(3n) {
       margin-right: 0; }
+
+footer {
+  background: #032f3e;
+  color: white;
+  text-align: center; }
+  footer #F-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  footer .f-set {
+    width: 30%;
+    margin-right: 5%;
+    margin-bottom: 5%; }
+    footer .f-set:nth-of-type(3n) {
+      margin-right: 0; }
