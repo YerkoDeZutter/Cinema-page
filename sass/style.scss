@@ -1,0 +1,44 @@
+@import "varibulls";
+
+header{
+  width: 100vw;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background: $deepBlue;
+  ul{
+    position: relative;
+    left: -40px;
+    width: 100%;
+    display: flex;
+  }
+  li{
+    width: (100% / 5);
+    list-style-type: none;
+  }
+  a{
+    color: white;
+    text-decoration: none;
+    padding: 16px;
+    display: block;
+    text-align: center;
+    &:hover{
+      background: lighten($deepBlue, 6);
+    }
+  }
+}
+
+
+main{
+  margin-top: 7%;
+  color: $deepBlue;
+  img{
+
+  }
+  h1{
+    text-align: center;
+  }
+  p{
+    margin: 20px;
+  }
+}
