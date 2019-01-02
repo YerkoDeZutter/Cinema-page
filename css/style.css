@@ -1,3 +1,7 @@
+* {
+  padding: 0;
+  margin: 0; }
+
 header {
   width: 100vw;
   position: fixed;
@@ -5,8 +9,6 @@ header {
   top: 0;
   background: #032f3e; }
   header ul {
-    position: relative;
-    left: -40px;
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -24,9 +26,10 @@ header {
       background: #04455b; }
 
 main {
-  margin-top: 7%;
+  padding-top: 50px;
   color: #032f3e; }
   main h1 {
     text-align: center; }
   main p {
-    margin: 20px; }
+    margin: 20px;
+    text-align: justify; }

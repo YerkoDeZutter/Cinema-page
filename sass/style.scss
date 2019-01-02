@@ -1,5 +1,10 @@
 @import "varibulls";
 
+*{
+  padding: 0;
+  margin: 0;
+}
+
 header{
   width: 100vw;
   position: fixed;
@@ -7,8 +12,6 @@ header{
   top: 0;
   background: $deepBlue;
   ul{
-    position: relative;
-    left: -40px;
     width: 100%;
     display: flex;
   }
@@ -30,7 +33,7 @@ header{
 
 
 main{
-  margin-top: 7%;
+  padding-top: 50px;
   color: $deepBlue;
   img{
 
@@ -40,5 +43,6 @@ main{
   }
   p{
     margin: 20px;
+    text-align: justify;
   }
 }
