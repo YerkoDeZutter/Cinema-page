@@ -32,9 +32,15 @@ header {
 
 main {
   color: #032f3e; }
-  @media screen and (max-width: 600px) {
-    main {
-      padding-top: 200px; } }
+  main #head-img {
+    height: 100vh;
+    background: url(../img/cinema-bg.jpg);
+    background-size: cover;
+    background-position: center; }
+    @media screen and (max-width: 600px) {
+      main #head-img {
+        padding-top: 200px;
+        height: calc(100vh - 200px); } }
   main #text {
     padding: 0 5%; }
   main h1 {

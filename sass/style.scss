@@ -38,8 +38,16 @@ header{
 
 main{
   color: $deepBlue;
-  @include mQ(600px){
-    padding-top: 200px;
+
+  #head-img{
+    height: 100vh;
+    background: url(../img/cinema-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    @include mQ(600px){
+      padding-top: 200px;
+      height: calc(100vh - 200px);
+    }
   }
 
   #text{
